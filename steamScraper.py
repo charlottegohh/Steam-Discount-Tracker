@@ -28,11 +28,13 @@ def scrape_steam():
     for game in games[:50]: #limit to first 50
         try:
             title = game.find_element(By.CLASS_NAME, "title").text
+            original_price = game.find_element(By.CLASS_NAME, "discount_original_price").text
             discount = game.find_element(By.CLASS_NAME, "discount_pct").text
             price = game.find_element(By.CLASS_NAME, "discount_final_price").text
 
             data.append({
                 "title": title,
+                "original_price": original_price,
                 "discount": discount,
                 "price": price
             })
