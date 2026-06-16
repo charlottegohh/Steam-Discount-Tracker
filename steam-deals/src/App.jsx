@@ -9,7 +9,7 @@ function App(){
   
   async function fetchDeals(){
     setLoading(true)
-    const res = await axios.get('https://steam-discount-tracker.onrender.com')
+    const res = await axios.get('https://steam-discount-tracker.onrender.com/deals')
     console.log(res.data)
     setDeals(res.data)
     setLoading(false)
