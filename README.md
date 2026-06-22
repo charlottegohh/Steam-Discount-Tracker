@@ -1,4 +1,4 @@
-# Steam Discount Tracker
+# Steam Discount Dashboard
 
 A full-stack web application that scrapes and displays the latest discounted games from Steam Specials site
 
