@@ -1,6 +1,6 @@
 # Steam Discount Tracker
 
-A full-stack web application that scrapes and displays the latest discounted games from Steam Specials, allowing users to browse and sort deals in real time.
+A full-stack web application that scrapes and displays the latest discounted games from Steam Specials site
 
 🔗 **Live Demo**: [steam-discount-tracker-liart.vercel.app](https://steam-discount-tracker-liart.vercel.app)
 
